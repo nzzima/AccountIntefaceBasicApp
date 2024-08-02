@@ -39,7 +39,23 @@ class ViewController: UIViewController {
     }
     
     @objc private func didTapEnterButton() {
-        print("Enter provided!")
+        let tab_friends = UINavigationController(rootViewController: FriendsViewController())
+        let tab_groups = UINavigationController(rootViewController: GroupsViewController())
+        let tab_photos = UINavigationController(rootViewController: PhotosViewController())
+        
+        tab_friends.tabBarItem.title = "Friends"
+        tab_groups.tabBarItem.title = "Groups"
+        tab_photos.tabBarItem.title = "Photos"
+        
+        let controllers = [tab_friends, tab_groups, tab_photos]
+        
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = controllers
+        
+        guard let first_scene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                                 let first_window = first_scene.windows.first else { return }
+        
+        first_window.rootViewController = tabBarController
     }
 }
 
