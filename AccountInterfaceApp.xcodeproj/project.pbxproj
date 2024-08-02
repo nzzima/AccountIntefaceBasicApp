@@ -19,6 +19,7 @@
 		8EDAB0DF2C5CEC0600BB6529 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAB0DE2C5CEC0600BB6529 /* CustomTableViewCell.swift */; };
 		8EDAB0E12C5CFA9600BB6529 /* DataFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAB0E02C5CFA9600BB6529 /* DataFriends.swift */; };
 		8EDAB0E32C5D062200BB6529 /* DataGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAB0E22C5D062200BB6529 /* DataGroups.swift */; };
+		8EDAB0E52C5D08EB00BB6529 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8EDAB0E42C5D08EB00BB6529 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8EDAB0DE2C5CEC0600BB6529 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		8EDAB0E02C5CFA9600BB6529 /* DataFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFriends.swift; sourceTree = "<group>"; };
 		8EDAB0E22C5D062200BB6529 /* DataGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGroups.swift; sourceTree = "<group>"; };
+		8EDAB0E42C5D08EB00BB6529 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		8EDAB0B62C5CB88500BB6529 = {
 			isa = PBXGroup;
 			children = (
+				8EDAB0E42C5D08EB00BB6529 /* README.md */,
 				8EDAB0C12C5CB88500BB6529 /* AccountInterfaceApp */,
 				8EDAB0C02C5CB88500BB6529 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				8EDAB0CC2C5CB88600BB6529 /* Assets.xcassets in Resources */,
 				8EDAB0CF2C5CB88600BB6529 /* Base in Resources */,
+				8EDAB0E52C5D08EB00BB6529 /* README.md in Resources */,
 				8EDAB0CA2C5CB88500BB6529 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
