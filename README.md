@@ -1,13 +1,13 @@
 # Basic interface with friends, groups and photos  
 
-###Start screen  
+### Start screen  
 ![Start](start.png)  
 
-###Friends screen  
+### Friends screen  
 ![Friends](friends.png)  
 
-###Groups screen
+### Groups screen
 ![Groups](groups.png)  
 
-###Images screen
+### Images screen
 ![Images](images.png)
