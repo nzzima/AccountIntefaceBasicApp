@@ -16,7 +16,8 @@ extension Groups {
             Groups(name: "IOS", description: "Instructions for progs"),
             Groups(name: "Android", description: "Manual"),
             Groups(name: "Windows", description: "Microsoft details"),
-            Groups(name: "Linux", description: "UNIX manual")
+            Groups(name: "Linux", description: "UNIX manual"),
+            Groups(name: "Facebook", description: "Mark Zucerberk and facebook history")
         ]
     }
 }
